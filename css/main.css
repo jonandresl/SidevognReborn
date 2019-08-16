@@ -25,7 +25,7 @@
  */
  
  .bottlewide {
-   background-image: url("res/img/bottlewide.png");
+   background-image: url("../res/img/bottlewide.png");
  }
 
 .product-device::before {
