@@ -31,7 +31,7 @@
         }
       }
     </style>
-    <!-- Custom styles for this template -->
+    <!-- Custom styles for this template -->d
     <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
