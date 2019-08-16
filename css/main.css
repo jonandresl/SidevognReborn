@@ -24,6 +24,9 @@
  * Dummy devices (replace them with your own or something else entirely!)
  */
  
+ .bottlewide {
+   background-image: url("res/img/bottlewide.png");
+ }
 
 .product-device::before {
   position: absolute;
