@@ -14,8 +14,6 @@
     if ($(window).width() < 1200) {
           nav.addClass('navbar-reduce');
           nav.removeClass('navbar-trans');
-          $('#logowhite').hide();
-          $('#logogreen').show();
     }
   });
 
@@ -23,8 +21,6 @@
     if ($(window).width() < 1200) {
           nav.addClass('navbar-reduce');
           nav.removeClass('navbar-trans');
-          $('#logowhite').hide();
-          $('#logogreen').show();
     }
   });
 
@@ -34,14 +30,10 @@
         if ($(window).scrollTop() >= top) {
             nav.addClass('navbar-reduce');
             nav.removeClass('navbar-trans');
-            $('#logowhite').hide();
-            $('#logogreen').show();
 
         } else {
             nav.addClass('navbar-trans');
             nav.removeClass('navbar-reduce');
-            $('#logogreen').hide();
-            $('#logowhite').show();
         }
       }
   });
