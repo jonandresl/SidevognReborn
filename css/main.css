@@ -7,7 +7,7 @@ body {
     line-height: 30px;
 }
 
-h1, h2 { 
+h1, h2, .navbar-brand { 
   font-family: 'Josefin Sans', sans-serif;
   font-size: 48px;
   font-weight: 300;
@@ -32,9 +32,6 @@ h3 { font-family: 'Josefin Sans', sans-serif; font-size: 32px; font-weight: 300;
 #logo{
   width: 90px;
   margin-right: 10px;
-}
-
-#logo {
   display: block;
 }
 
@@ -59,7 +56,7 @@ h3 { font-family: 'Josefin Sans', sans-serif; font-size: 32px; font-weight: 300;
 
 .navbar-b.navbar-trans .nav-link,
 .navbar-b.navbar-reduce .nav-link {
-  color: #fff;
+  color: #343a40;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -116,7 +113,7 @@ h3 { font-family: 'Josefin Sans', sans-serif; font-size: 32px; font-weight: 300;
 
 .navbar-b.navbar-trans .nav-link:before,
 .navbar-b.navbar-trans .nav-link:after {
-  background: #fff;
+  background: #343a40;
 }
 
 
@@ -124,7 +121,7 @@ h3 { font-family: 'Josefin Sans', sans-serif; font-size: 32px; font-weight: 300;
 .navbar-b.navbar-trans .active > .nav-link,
 .navbar-b.navbar-trans .nav-link.show,
 .navbar-b.navbar-trans .nav-link.active {
-  color: #fff;
+  color: #343a40;
 }
 
 @media only screen and (max-width: 1999px) {
@@ -142,22 +139,22 @@ h3 { font-family: 'Josefin Sans', sans-serif; font-size: 32px; font-weight: 300;
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #939765;
+  color: #343a40;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background: #939765;
+  background: #343a40;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #939765;
+  color: #343a40;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #939765;
+  color: #343a40;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
@@ -165,7 +162,7 @@ h3 { font-family: 'Josefin Sans', sans-serif; font-size: 32px; font-weight: 300;
 }
 
 .navbar-b .navbar-brand {
-  color: #fff;
+  color: #343a40;
   font-size: 1.6rem;
   font-weight: 600;
 }
@@ -248,9 +245,16 @@ h3 { font-family: 'Josefin Sans', sans-serif; font-size: 32px; font-weight: 300;
   width: 15%;
 }
 
+.portrait {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  filter: grayscale(75%); 
+}
+
 @media only screen and (min-width: 750px) {
   .inthaback {
-  /* height:100%; */
+  background-image: url('../res/img/bottlewide.png');
   min-height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -264,7 +268,7 @@ h3 { font-family: 'Josefin Sans', sans-serif; font-size: 32px; font-weight: 300;
 }
 
 .inthaback {
-background-image: url('../res/img/logo.svg');
+background-image: url('../res/img/bottlewide.png');
 background-repeat:no-repeat;
 background-size:contain;
 background-position:center;

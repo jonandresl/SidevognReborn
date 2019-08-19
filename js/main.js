@@ -38,9 +38,4 @@
       }
   });
 
-  $('body').scrollspy({
-    target: nav,
-    offset: navHeight + 50
-  });
-
 })(jQuery);

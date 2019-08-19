@@ -13,7 +13,7 @@
 
     <!-- Bootstrap core CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Josefin+Sans"/>
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -32,15 +32,18 @@
     </style>
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
+    <!-- <link href="css/animate.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   </head>
   
   <body>
-    <nav class="navbar navbar-b navbar-trans navbar-expand-xl fixed-top bg-dark" id="navbarMain">
+    
+    <nav class="navbar navbar-b navbar-trans navbar-expand-xl fixed-top" id="navbarMain">
       <div class="container">
-        <div class="logo">
-          <img id="logo" src="res/img/logo.png" alt="Telnessanden logo">
+        <div class="navbar-brand">
+          <img class="animated fadeInLeftBig slow" id="logo" src="res/img/logo.png" alt="Sidevogn logo">
         </div>
-        <a class="navbar-brand" href="#home">Sidevogn</a>
+        <a class="animated flipInX delay-1s navbar-brand" href="#home">SIDEVOGN</a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span></span>
           <span></span>
@@ -70,24 +73,11 @@
         </div>
       </div>
     </nav>
-    
-    <!-- <nav class="site-header sticky-top py-1">
-  <div class="container d-flex flex-column flex-md-row justify-content-between">
-    <a class="py-2" href="#">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
-    </a>
-    <a class="py-2 d-none d-md-inline-block" href="#">FIZZ</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">MIXIT</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">ABOUT</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">STORE</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">CONTACT</a>
-  </div>
-</nav> -->
 
-<div class="position-relative overflow-hidden p-5 p-md-5 m-md-7 text-center bg-light img-responsive inthaback">
-  <div class="col-md-5 p-lg-5 mx-auto my-5">
-    <h1 class="display-4 text-light font-weight-normal mt-5">Sidevogn Cocktails</h1>
-    <p class="lead text-light font-weight-normal">Scandinavias premiere premix brand</p>
+<div class="position-relative overflow-hidden p-5 p-md-5 m-md-7 text-center bg-light inthaback">
+  <div class="col-md-5 p-lg-5 mx-auto my-5">    
+    <h1 class="animated fadeIn display-4 slow text-dark font-weight-normal mt-5">SIDEVOGN COCKTAILS</h1>
+    <p class="lead text-dark font-weight-normal">Scandinavias premiere premix brand</p>
     <a class="btn btn-outline-secondary" href="#">Coming soon</a>
   </div>
 </div>
@@ -102,69 +92,63 @@
   <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
     <div class="my-3 p-3">
       <h2 class="display-5">Peter Harket</h2>
-      <p class="lead">En kjekk kar med gode ideer.</p>
+      <p class="lead">Founder of Sidevogn</p>
     </div>
-    <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+    <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 600px;">
+      <img src="res/img/peter2.jpg" class="portrait"></img>
+    </div>
   </div>
   <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
     <div class="my-3 py-3">
-      <h2 class="display-5">Han andre</h2>
-      <p class="lead">Som er dansk og nesten like kjekk.</p>
+      <h2 class="display-5">Peter Laursen</h2>
+      <p class="lead">Founder of Sidevogn</p>
     </div>
-    <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+    <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 600px;">
+      <img src="res/img/dansken.jpg" class="portrait"></img>
+    </div>
   </div>
 </div>
 
-<footer class="container py-5">
+<footer class="container text-center py-5">
   <div class="row">
     <div class="col-12 col-md">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
-      <small class="d-block mb-3 text-muted">&copy; 2017-2019</small>
+      <img id="logo" src="res/img/logo.png" style="margin-left:auto;margin-right:auto;" alt="Sidevogn logo">
+      <small class="d-block mb-3 text-muted">Sidevogn &copy; 2019</small>
     </div>
-    <div class="col-6 col-md">
-      <h5>Features</h5>
+    <!-- <div class="col-6 col-md">
+      <h5>Header 1</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="#">Cool stuff</a></li>
-        <li><a class="text-muted" href="#">Random feature</a></li>
-        <li><a class="text-muted" href="#">Team feature</a></li>
-        <li><a class="text-muted" href="#">Stuff for developers</a></li>
-        <li><a class="text-muted" href="#">Another one</a></li>
-        <li><a class="text-muted" href="#">Last time</a></li>
+        <li><a class="text-muted" href="#">Write</a></li>
+        <li><a class="text-muted" href="#">Some</a></li>
+        <li><a class="text-muted" href="#">Stuff</a></li>
+        <li><a class="text-muted" href="#">Here</a></li>
       </ul>
     </div>
     <div class="col-6 col-md">
-      <h5>Resources</h5>
+      <h5>Header 2</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="#">Resource</a></li>
-        <li><a class="text-muted" href="#">Resource name</a></li>
-        <li><a class="text-muted" href="#">Another resource</a></li>
-        <li><a class="text-muted" href="#">Final resource</a></li>
+        <li><a class="text-muted" href="#">Write</a></li>
+        <li><a class="text-muted" href="#">Some</a></li>
+        <li><a class="text-muted" href="#">Stuff</a></li>
+        <li><a class="text-muted" href="#">Here</a></li>
       </ul>
     </div>
     <div class="col-6 col-md">
-      <h5>Resources</h5>
+      <h5>Header 3</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="#">Business</a></li>
-        <li><a class="text-muted" href="#">Education</a></li>
-        <li><a class="text-muted" href="#">Government</a></li>
-        <li><a class="text-muted" href="#">Gaming</a></li>
+        <li><a class="text-muted" href="#">Write</a></li>
+        <li><a class="text-muted" href="#">Some</a></li>
+        <li><a class="text-muted" href="#">Stuff</a></li>
+        <li><a class="text-muted" href="#">Here</a></li>
       </ul>
-    </div>
-    <div class="col-6 col-md">
-      <h5>About</h5>
-      <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="#">Team</a></li>
-        <li><a class="text-muted" href="#">Locations</a></li>
-        <li><a class="text-muted" href="#">Privacy</a></li>
-        <li><a class="text-muted" href="#">Terms</a></li>
-      </ul>
-    </div>
+    </div> -->
   </div>
 </footer>
 </body>
-<script src="js/main.js"></script>
 <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
+  
+  <script src="js/main.js"></script>
 </html>
