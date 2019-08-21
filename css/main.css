@@ -252,23 +252,76 @@ h3 { font-family: 'Josefin Sans', sans-serif; font-size: 32px; font-weight: 300;
   filter: grayscale(75%); 
 }
 
+.box-shadow {
+  box-shadow: 0 8px 8px 1px rgba(0, 0, 0, 0.1);
+}
+
 @media only screen and (min-width: 750px) {
-  .inthaback {
+  .inthaback1 {
   background-image: url('../res/img/bottlewide.png');
   min-height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  box-shadow: 0 8px 8px 1px rgba(0, 0, 0, 0.1);
   }
   .mainText {
     margin-top: 50px;
   }
 }
 
-.inthaback {
+.inthaback1 {
 background-image: url('../res/img/bottlewide.png');
+background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+}
+
+@media only screen and (min-width: 750px) {
+  .inthaback2 {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),url('../res/img/group.jpg');
+  min-height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+}
+
+.inthaback2 {
+background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),url('../res/img/group.jpg');
+background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+}
+
+@media only screen and (min-width: 750px) {
+  .inthaback3 {
+  background-image: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),url('../res/img/group2.jpg');
+  /* filter: grayscale(75%); */
+  min-height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+}
+
+.inthaback3 {
+background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),url('../res/img/group2.jpg');
+/* filter: grayscale(75%); */
 background-repeat:no-repeat;
 background-size:contain;
 background-position:center;
